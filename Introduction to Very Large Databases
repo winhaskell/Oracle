@@ -1,0 +1,8 @@
+Introduction to Very Large Databases
+
+https://docs.oracle.com/cd/E18283_01/server.112/e16541/intro.htm
+
+Modern enterprises frequently run mission-critical databases containing upwards of several hundred gigabytes, 
+and often several terabytes of data. These enterprises are challenged by the support and maintenance requirements 
+of very large databases (VLDB), and must devise methods to meet those challenges.
+
