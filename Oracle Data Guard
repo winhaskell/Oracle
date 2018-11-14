@@ -1,0 +1,17 @@
+Oracle Data Guard
+https://www.oracle.com/technetwork/cn/database/dataguardoverview-091578-zhs.html
+
+Oracle Data Guard 是针对企业数据库的最有效和最全面的数据可用性、数据保护和灾难恢复解决方案。
+它提供管理、监视和自动化软件基础架构来创建和维护一个或多个同步备用数据库，从而保护数据不受故障、灾难、错误和损坏的影响。
+
+Data Guard 备用数据库可以位于距离生产数据中心几千英里外的远程灾难恢复网站上，也可以位于同一个城市、同一个校园，甚至同一个建筑物中。
+如果生产数据库由于计划中或计划外中断而变得不可用，Data Guard 可以将任意备用数据库切换到生产角色，从而可使停机时间减到最少并防止数据丢失。 
+
+Data Guard 提供：
+可靠性 — 最佳的数据保护和可用性。您始终了解备用数据库的状态，并且它可以非常迅速地（在几秒钟内）切换为主数据库角色。
+更低的成本和复杂性 — Data Guard 完善的功能和丰富的管理界面是 Oracle 企业版的特性。
+最大的投资回报 — 所有备用数据库在作为备用角色的同时都可以用于生产目的，从而消除了闲置资源。
+Data Guard 是 Oracle 真正应用集群 (RAC) 的理想补充并可与其他 Oracle 高可用性 (HA) 解决方案（如 Oracle 闪回、 Oracle Recovery Manager (RMAN)）
+以及 Oracle 数据库 11 g 的新数据库选件（包括 Oracle Active Data Guard 和 Oracle Advanced Compression）结合使用，以提供最高级别的数据保护、
+数据可用性和资源利用率。
+
