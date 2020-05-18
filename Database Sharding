@@ -1,0 +1,29 @@
+Database Sharding
+https://www.acodersjourney.com/database-sharding/
+
+
+What is Sharding or Data Partitioning?
+Sharding (also known as Data Partitioning) is the process of splitting a large dataset into 
+many small partitions which are placed on different machines. Each partition is known as a "shard".
+
+Each shard has the same database schema as the original database. Most data is distributed such
+that each row appears in exactly one shard. The combined data from all shards is the same as
+the data from the original database.
+
+When to use sharding ?
+Use this pattern when a data store is likely to need to scale beyond the resources available to
+a single storage node, or to improve performance by reducing contention in a data store.
+
+For example, if you're designing the next Netflix, you'll need to store and provide low latency reads
+to a huge number of video files. In this case you might want to shard by the genre of the movies. 
+You'll also want to create replicas of the individual shards to provide high availability.
+
+The primary focus of sharding is to improve the performance and scalability of a system, but as
+a by-product it can also improve availability due to how the data is divided into separate partitions.
+
+
+
+
+
+
+
